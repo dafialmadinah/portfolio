@@ -1,8 +1,8 @@
 "use client"
 import { useInView, motion } from 'framer-motion'
-import React, { useEffect, useRef, useState } from 'react'
+import React, { useRef } from 'react'
 import RollingGallery from '../reactBits/RollingGallery/RollingGallery'
-import AnimatedContent from '../reactBits/AnimatedContent/AnimatedContent'
+import Image from 'next/image';
 
 
 export const SectionAbout = () => {
@@ -31,18 +31,18 @@ export const SectionAbout = () => {
             className='flex flex-row gap-x-10'>
 
             <div>
-              <img src="/dafi.jpeg" alt="" className='rounded-xl w-300 ' />
+              <Image src="/dafi.jpeg" alt="desc" width={400} height={300} className='rounded-xl w-300' />
             </div>
 
 
             <div className='flex flex-col justify-center text-justify relative'>
               <h1 className='absolute top-0 w-full text-center font-bold text-3xl hidden lg:block'>About Me</h1>
               <p>
-                Hi! I'm an Information Technology student at Brawijaya University with a passion for building meaningful digital solutions. Throughout my journey, I've earned recognition in tech and business competitions and gained hands on experience in both web and mobile development. At CloudDatzen, I helped develop a web app to support the towing industry, and at Halcy Hijab, I designed a clean, user friendly landing page to strengthen their online presence and engagement.
+                {`Hi! I'm an Information Technology student at Brawijaya University with a passion for building meaningful digital solutions. Throughout my journey, I've earned recognition in tech and business competitions and gained hands on experience in both web and mobile development. At CloudDatzen, I helped develop a web app to support the towing industry, and at Halcy Hijab, I designed a clean, user friendly landing page to strengthen their online presence and engagement.`}
               </p>
               <br />
               <p> 
-                Beyond technical roles, I've contributed to impactful community focused projects such as developing Ngalaman and SIGMA, mobile apps aimed at improving emergency response and public safety. I also led public relations initiatives at Raion Academy, connecting with over 200 participants in just one week. While I've explored various tech domains, my current focus is <b>frontend development</b>, where I enjoy turning ideas into intuitive interfaces that truly solve user needs.
+                {`Beyond technical roles, I've contributed to impactful community focused projects such as developing Ngalaman and SIGMA, mobile apps aimed at improving emergency response and public safety. I also led public relations initiatives at Raion Academy, connecting with over 200 participants in just one week. While I've explored various tech domains, my current focus is frontend development, where I enjoy turning ideas into intuitive interfaces that truly solve user needs.`}
                 </p>
             </div>
           </motion.div>

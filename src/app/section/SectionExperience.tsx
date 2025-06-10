@@ -36,22 +36,6 @@ const transformStyles2 = [
   "rotate(-5deg) translate(150px)"
 ];
 
-const images3 = [
-  "/hekpes1.jpg",
-  "/tobutive1.jpg",
-  "/hekpes2.jpg",
-  "/tobutive2.jpg",
-  "/hekpes3.jpg"
-];
-
-const transformStyles3 = [
-  "rotate(5deg) translate(-150px)",
-  "rotate(0deg) translate(-70px)",
-  "rotate(-5deg)",
-  "rotate(5deg) translate(70px)",
-  "rotate(-5deg) translate(150px)"
-];
-
 const w_experiences = [
   {
     title: 'Frontend Developer · Halcy Hijab',
@@ -71,7 +55,7 @@ const o_experiences = [
     title: 'App Programmer · Raion Community',
     place: 'Jan 2025 - December 2025',
     description:
-      'Developed "Ngalaman", a mobile application that enables users to quickly report criminal incidents, share information about high-risk areas, and access emergency assistance through integration with authorities.',
+      'Developed "Ngalaman", a mobile application that enables users to quickly report criminal incidents, share information about high risk areas, and access emergency assistance through integration with authorities.',
   },
   {
     title: 'Lead Developer [Sigma] · Raion Community',
@@ -109,8 +93,6 @@ const awards = [
 ]
 export const SectionExperience = () => {
 
-  const refPort = useRef(null);
-  const isInView = useInView(refPort, { once: false, amount: 0.1 })
 
   return (
     <section id='experience' className='min-h-screen scroll-mt-20 '>

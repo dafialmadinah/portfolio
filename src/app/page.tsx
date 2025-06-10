@@ -1,4 +1,4 @@
-import Image from "next/image";
+
 import { Header } from "./components/Header";
 import { SectionHome } from "./section/SectionHome"
 import { SectionAbout } from "./section/SectionAbout";

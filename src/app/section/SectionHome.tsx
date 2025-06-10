@@ -3,12 +3,12 @@ import React from 'react'
 import SplitText from '../reactBits/SplitText/SplitText'
 import TextPressure from '../reactBits/TextPressure/TextPressure'
 import AnimatedContent from '../reactBits/AnimatedContent/AnimatedContent'
-// import Lanyard from '../reactBits/Lanyard/Lanyard'
+
 
 export const SectionHome = () => {
   return (
     <section id='home' className='min-h-screen flex items-center justify-center gap-x-20 scroll-mt-20'>
-      {/* <Lanyard position={[0, 0, 20]} gravity={[0, -40, 0]} /> */}
+  
       <AnimatedContent
         distance={150}
         direction="horizontal"
@@ -34,7 +34,6 @@ export const SectionHome = () => {
             strokeColor="#387eb8"
             minFontSize={34}
           />
-          {/* <span className='text-[0.9rem] md:text-xl font-serif  whitespace-nowrap overflow-hidden'>I'm Muhammad Rizqullah (Dafi) Almadinah</span> */}
 
           <SplitText
             text="I'm Muhammad Rizqullah Almadinah (Dafi)"

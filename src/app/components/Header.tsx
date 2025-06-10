@@ -1,6 +1,6 @@
 "use client";
 
-import React, { use, useEffect, useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import DecryptedText from '../reactBits/DecryptedText/DecryptedText';
 import GooeyNav from '../reactBits/GooeyNav/GooeyNav'
 import Link from 'next/link';
