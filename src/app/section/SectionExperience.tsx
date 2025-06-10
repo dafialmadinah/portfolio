@@ -1,6 +1,6 @@
 'use client'
-import { motion, useInView } from 'framer-motion'
-import React, { useRef } from 'react'
+import { motion } from 'framer-motion'
+import React from 'react'
 import BounceCards from '../reactBits/BounceCards/BounceCards'
 
 
@@ -28,13 +28,6 @@ const images2 = [
   "/o5.jpg"
 ];
 
-const transformStyles2 = [
-  "rotate(5deg) translate(-150px)",
-  "rotate(0deg) translate(-70px)",
-  "rotate(-5deg)",
-  "rotate(5deg) translate(70px)",
-  "rotate(-5deg) translate(150px)"
-];
 
 const w_experiences = [
   {

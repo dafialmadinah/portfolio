@@ -50,7 +50,7 @@ export const SectionAbout = () => {
       </motion.div>
 
 
-      <div className=''>
+      <div>
         <RollingGallery autoplay={true} pauseOnHover={false} />
       </div>
 

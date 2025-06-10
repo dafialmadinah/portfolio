@@ -50,7 +50,7 @@ const GooeyNav: React.FC<GooeyNavProps> = ({
     d: [number, number],
     r: number,
   ) => {
-    let rotate = noise(r / 10);
+    const rotate = noise(r / 10);
     return {
       start: getXY(d[0], particleCount - i, particleCount),
       end: getXY(d[1] + noise(7), particleCount - i, particleCount),
@@ -193,7 +193,7 @@ const GooeyNav: React.FC<GooeyNavProps> = ({
           .effect.filter::before {
             background: transparent !important;
             inset: 0 !important;
-          }
+}
           .effect.filter::before {
             content: "";
             position: absolute;
