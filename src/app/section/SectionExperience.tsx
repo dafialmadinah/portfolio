@@ -136,7 +136,7 @@ export const SectionExperience = () => {
           ))}
         </div>
 
-        <div>
+        <div className='hidden lg:block'>
           <BounceCards
             className="custom-bounceCards"
             images={images2}
@@ -174,7 +174,7 @@ export const SectionExperience = () => {
           ))}
         </div>
 
-        <div>
+        <div className='hidden lg:block'>
           <BounceCards
             className="custom-bounceCards"
             images={images}

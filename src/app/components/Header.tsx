@@ -50,10 +50,21 @@ export const Header = () => {
                         </div>
                     </Link>
                 ))}
+                <div className='ml-3 flex flex-row'>
+                    <a href="https://github.com/dafialmadinah" target="_blank" rel="noopener noreferrer">
+                        <FaSquareGithub className="text-5xl hover:text-gray-700" />
+                    </a>
+                    <a href="https://linkedin.com/in/dafialmadinah" target="_blank" rel="noopener noreferrer">
+                        <FaLinkedin className="text-5xl hover:text-blue-700" />
+                    </a>
+                    <a href="https://instagram.com/dafialmadinah" target="_blank" rel="noopener noreferrer">
+                        <FaInstagramSquare className="text-5xl hover:text-pink-500" />
+                    </a>
+                </div>
             </div>
             <nav className='relative flex items-center justify-between '>
 
-                <DecryptedText parentClassName='cursor-pointer z-10 text-[20px] font-[Consolas]'
+                <DecryptedText parentClassName='text-[12px] cursor-pointer z-10 lg:text-[20px] font-[Consolas]'
                     text="console.log(dafialmadinah);"
                     animateOn={type}
                 />
