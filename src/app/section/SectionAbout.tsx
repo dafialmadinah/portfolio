@@ -36,7 +36,7 @@ export const SectionAbout = () => {
 
 
             <div className='flex flex-col text-justify'>
-              <h1 className='w-full text-center font-bold text-3xl hidden lg:bloc mb-8'>About Me</h1>
+              <h1 className='w-full text-center font-bold text-3xl hidden lg:block mb-8'>About Me</h1>
               <p>
                 {`Hi! I'm an Information Technology student at Brawijaya University with a passion for building meaningful digital solutions. Throughout my journey, I've earned recognition in tech and business competitions and gained hands on experience in both web and mobile development. At CloudDatzen, I helped develop a web app to support the towing industry, and at Halcy Hijab, I designed a clean, user friendly landing page to strengthen their online presence and engagement.`}
               </p>
