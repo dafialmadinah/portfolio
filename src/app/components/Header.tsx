@@ -64,7 +64,7 @@ export const Header = () => {
             </div>
             <nav className='relative flex items-center justify-between '>
 
-                <DecryptedText parentClassName='text-[12px] cursor-pointer z-10 lg:text-[20px] font-[Consolas]'
+                <DecryptedText parentClassName='text-base cursor-pointer z-10 md:text-xl font-[Consolas]'
                     text="console.log(dafialmadinah);"
                     animateOn={type}
                 />
