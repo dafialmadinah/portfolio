@@ -34,13 +34,13 @@ const w_experiences = [
     title: 'Frontend Developer · Halcy Hijab',
     place: 'Jan 2025 - June 2025',
     description:
-      'A national competition organized by the Information Systems Student Association. The event aims to enhance student portfolios and foster innovation.',
+      'Developed the frontend of Halcy Hijab website using Next.js, React, Tailwind CSS, and TypeScript to deliver a smooth, responsive, and elegant user experience.',
   },
   {
     title: 'Web Developer · CloudDatzen',
     place: 'Feb 2025 - May 2025',
     description:
-      'Designed and developed a landing page for Halcy Hijab, a modest fashion brand, to enhance its online presence, showcase product highlights, and drive customer engagement through a clean, user-friendly interface.',
+      'Took part in developing Tozen at CloudDatzen, a web application that helps clients in the towing industry manage data, perform service documentation, and monitor operations more effectively.',
   },
 ];
 const o_experiences = [
@@ -60,7 +60,7 @@ const o_experiences = [
     title: 'Vice Head of Public Relations · Raion Community',
     place: 'Nov 2024',
     description:
-      'Designed and developed a landing page for Halcy Hijab, a modest fashion brand, to enhance its online presence, showcase product highlights, and drive customer engagement through a clean, user-friendly interface.',
+      'Led public relations efforts to ensure effective communication with participants and partners, aligning outreach strategies with event goals. These initiatives resulted in over 200 participants registering within just one week, highlighting the success of our communication strategy.',
   },
 ];
 
@@ -91,7 +91,7 @@ export const SectionExperience = () => {
     <section id='experience' className='min-h-screen scroll-mt-20 '>
 
       <h2 className="text-3xl font-bold text-center mb-8">Work Experience</h2>
-      <div className='flex flex-row justify-around'>
+      <div className='flex flex-row'>
         <div className='flex flex-col'>
           {w_experiences.map((w, i) => (
             <motion.div
@@ -115,7 +115,7 @@ export const SectionExperience = () => {
 
 
       <h2 className="text-3xl font-bold text-center mb-8 mt-16">Organizational Experience</h2>
-      <div className='flex flex-row justify-around'>
+      <div className='flex flex-row justify-center'>
         <div className='flex flex-col'>
           {o_experiences.map((o, i) => (
             <motion.div
@@ -153,7 +153,7 @@ export const SectionExperience = () => {
       </div>
 
       <h2 className="text-3xl font-bold text-center mb-8 mt-16">Awards</h2>
-      <div className='flex flex-row justify-around'>
+      <div className='flex flex-row justify-center'>
         <div className='flex flex-col'>
           {awards.map((a, i) => (
             <motion.div
