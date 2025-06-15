@@ -38,11 +38,11 @@ export const SectionAbout = () => {
             <div className='flex flex-col text-justify'>
               <h1 className='w-full text-center font-bold text-3xl hidden lg:block mb-8'>About Me</h1>
               <p>
-                {`Hi! I'm an Information Technology student at Brawijaya University with a passion for building meaningful digital solutions. Throughout my journey, I've earned recognition in tech and business competitions and gained hands on experience in both web and mobile development. At CloudDatzen, I helped develop a web app to support the towing industry, and at Halcy Hijab, I designed a clean, user friendly landing page to strengthen their online presence and engagement.`}
+                {`Hi! I am an Information Technology student at Brawijaya University with a strong passion for creating meaningful digital solutions. I have been involved in various projects such as developing a web app for the towing industry at CloudDatzen and designing a landing page for Halcy Hijab to enhance their online presence. These experiences have been valuable, but I realize that I still have a lot to learn.`}
               </p>
               <br />
               <p> 
-                {`Beyond technical roles, I've contributed to impactful community focused projects such as developing Ngalaman and SIGMA, mobile apps aimed at improving emergency response and public safety. I also led public relations initiatives at Raion Academy, connecting with over 200 participants in just one week. While I've explored various tech domains, my current focus is frontend development, where I enjoy turning ideas into intuitive interfaces that truly solve user needs.`}
+                {`I believe my knowledge is still limited, especially in frontend development. That is why I am continuously learning and practicing HTML, CSS, JavaScript, and React. I enjoy the process of turning ideas into clean, user-friendly interfaces and am committed to improving my skills and growing as a frontend developer, one step at a time..`}
                 </p>
             </div>
           </motion.div>
