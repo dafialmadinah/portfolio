@@ -31,7 +31,7 @@ export const SectionAbout = () => {
             className='flex flex-row gap-x-10'>
 
             <div>
-              <Image src="/dafi.jpeg" alt="desc" width={400} height={300} className='rounded-xl w-300' />
+              <Image src="/dafi.jpeg" alt="desc" width={400} height={300} className='rounded-xl w-200' />
             </div>
 
 
@@ -42,7 +42,7 @@ export const SectionAbout = () => {
               </p>
               <br />
               <p> 
-                {`I believe my knowledge is still limited, especially in frontend development. That is why I am continuously learning and practicing HTML, CSS, JavaScript, and React. I enjoy the process of turning ideas into clean, user-friendly interfaces and am committed to improving my skills and growing as a frontend developer, one step at a time..`}
+                {`I believe my knowledge is still limited, especially in frontend development. That is why I am continuously learning and practicing HTML, CSS, JavaScript, and React. I enjoy the process of turning ideas into clean, user-friendly interfaces and am committed to improving my skills and growing as a frontend developer, one step at a time`}
                 </p>
             </div>
           </motion.div>
